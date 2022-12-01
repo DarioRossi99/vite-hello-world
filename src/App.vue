@@ -1,9 +1,10 @@
 <script>
 import AppTitle from './components/AppTitle.vue'
 import AppHero from './components/AppHero.vue'
+import AppEasterEgg from './components/AppEasterEgg.vue'
 
 export default{
-  components:{AppTitle,AppHero}
+  components:{AppTitle,AppHero,AppEasterEgg}
 }
 
 </script>
@@ -11,6 +12,7 @@ export default{
 <template>
   <AppTitle></AppTitle>
   <AppHero></AppHero>
+  <AppEasterEgg></AppEasterEgg>
 </template>
 
 <style scoped>
